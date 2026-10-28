@@ -12,7 +12,7 @@ class Session:
 def session_is_valid(session: Session, now: int) -> bool:
     """A session must be invalid at its expiration deadline."""
     expires_at = session.issued_at + session.ttl_seconds
-    return now <= expires_at
+    return now < expires_at
 
 
 def get_current_user(session: Session, now: int) -> str | None:
