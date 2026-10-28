@@ -1,0 +1,31 @@
+# Synthetic, owned REV-925 production verification fixture.
+inheritance: false
+reviews:
+  profile: chill
+  high_level_summary: true
+  high_level_summary_in_walkthrough: true
+  related_issues: true
+  related_prs: false
+  suggested_labels: false
+  suggested_reviewers: false
+  auto_review:
+    enabled: true
+    auto_incremental_review: false
+knowledge_base:
+  opt_out: false
+  issues:
+    scope: global
+  pull_requests:
+    scope: local
+  learnings:
+    scope: local
+  jira:
+    usage: disabled
+  linear:
+    usage: disabled
+  mcp:
+    usage: disabled
+  web_search:
+    enabled: false
+  automatic_linking_mode: disabled
+  linked_repositories: []

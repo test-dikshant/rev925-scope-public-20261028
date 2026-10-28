@@ -1,2 +1,3 @@
-# rev925-scope-public-20261028
-Disposable synthetic REV-925 issue-scope verification. No customer data.
+# Synthetic session-expiration fixture
+
+Owned production test of issue-history repository scope. All issue text and code are synthetic. Do not use with real credentials.
